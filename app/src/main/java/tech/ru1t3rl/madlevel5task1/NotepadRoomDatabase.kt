@@ -7,7 +7,6 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.util.Date
-import androidx.room.TypeConverter as Converters
 
 @Database(entities = [Note::class], version = 1, exportSchema = false)
 @TypeConverters(Converters::class)

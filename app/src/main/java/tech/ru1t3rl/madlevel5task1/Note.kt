@@ -11,7 +11,7 @@ data class Note(
     var titleText: String,
 
     @ColumnInfo(name="lastUpdated")
-    var date: Date,
+    var lastUpdated: Date,
 
     @ColumnInfo(name = "text")
     var text: String,
